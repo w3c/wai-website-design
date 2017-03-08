@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>WAI New Design Test page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i" rel="stylesheet">
+    <style>
+.skip, .intro, .bread {
+	background-color: #fff;
+}
+header {
+	background-color: #036;
+	color: #fff;
+}
+a {
+	color: inherit;
+}
+.inner {
+	max-width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.skip {
+	text-align: right;
+	font-size: 0.85em;
+}
+header a {
+	text-decoration: none;
+}
+header .main a {
+	border-bottom: 3px solid transparent;
+	padding-bottom: 3px;
+}
+header .main a:hover,  header .main a:focus {
+	border-bottom-color: #fff;
+}
+header .main a[aria-current="page"] {
+	border-bottom-color: #EED009;
+}
+header>.inner {
+	display: flex;
+	color: #fff;
+	border: 1px solid #21436F;
+	border-width: 0 1px;
+}
+header>.inner>div {
+	display: flex;
+	flex-direction: column;
+	flex: 3;
+	text-align: right;
+	justify-content: space-between;
+}
+header h1 {
+	font-weight: normal;
+	font-size: 1.5em;
+	border-right: 1px solid #3061A1;
+	color: #fff;
+	padding-right: 1em;
+}
+header .main ul {
+	display: flex;
+	text-align: left;
+	justify-content: space-around;
+	margin: 0 0 .5em;
+	padding: 0 20px;
+}
+header .main ul li {
+	flex: 1;
+	margin-right: 1em;
+}
+header .main a {
+	display: block;
+	padding: 0 .5em 0 0;
+}
+header .main .sub {
+	display: block;
+	font-size: .85em;
+}
+header li {
+	display: inline-block;
+}
+.meta {
+	text-transform: uppercase;
+	font-size: .85em;
+	letter-spacing: 1px;
+}
+.meta a,  .skip a:first-of-type {
+	margin-right: 2em;
+}
+.intro {
+	border-bottom: 1px solid #EAEAEA;
+}
+.meta {
+	border-bottom: 1px solid #3061A1;
+}
+.body .inner {
+	display: flex;
+}
+.col1 {
+	flex: 3;
+	margin-right: 3em;
+}
+.col2 {
+	padding-top: 1em;
+	flex: 1;
+}
+.col2 section {
+	border: 1px solid #E5E5E5;
+	background: #fff;
+	margin-bottom: 1em;
+}
+.col2 section h3 {
+	margin: 0;
+	padding: 3px;
+	font-weight: normal;
+	border-bottom: 1px solid #E5E5E5;
+	font-size: 1.5em;
+	background-color: #F1F1F1;
+}
+.col2 section .section-body {
+	padding: 3px;
+}
+.intro {
+	font-size: 1.15em;
+}
+.intro .inner {
+	position: relative;
+}
+.bread {
+	padding: 0 0 1em 17.7em;
+	color: #505050;
+	font-size: 0.85em;
+}
+.bread a {
+	display: inline-block;
+}
+.bread a:first-of-type {
+	margin-left: 0;
+}
+main footer {
+	background-color: #EFEFEF;
+	font-size: .85em;
+}
+body>footer {
+	background-color: #3B3B3B;
+	color: #fff;
+	font-size: .95em;
+}
+body>footer #footerhead {
+	color: #eed009;
+	font-size: 1.5em;
+	margin-top: 0;
+}
+body>footer .inner {
+	display: flex;
+}
+body>footer .col {
+	flex: 1;
+	padding: 1em 0;
+}
+body>footer .col:first-child {
+	flex: 2;
+}
+body>footer .col>p:first-child {
+ margin-top;
+0 !important;
+}
+/**/
+.color1 {
+	color: #1d1d1d;
+}
+.color2 {
+	color: #036;
+}
+.color3 {
+	color: #00666F;
+}
+.weight1 * {
+	font-weight: 300;
+}
+.weight2 * {
+	font-weight: 400;
+}
+.weight1 strong, .weight1 strong em {
+	font-weight: 500;
+}
+.weight2 strong, .weight2 strong em {
+	font-weight: 700;
+}
+body {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 85%;
+	background: #fafafa;
+	color: #1d1d1d;
+	margin: 0;
+	padding: 0;
+	line-height: 1.35;
+}
+h1, h2 {
+	color: #005A6A;
+	font-weight: normal;
+}
+h2 {
+	border-bottom: 1px solid #EAEAEA;
+}
+h3 {
+	color: #036;
+}
+h6 {
+	color: 0.85em;
+}
+h5 {
+	color: 1.00em;
+}
+h4 {
+	color: 1.10em;
+}
+h3 {
+	color: 1.15em;
+}
+h2 {
+	color: 1.25em;
+}
+h1 {
+	color: 1.50em;
+}
+.demo_img {
+	width: 160px;
+	height: 160px;
+	margin: 20px;
+	border-radius: 100%;
+	float: left;
+	background-color: #ddd;
+}
+#font {
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+</style>
+    </head>
+    <body>
+<nav aria-label="Skip" class="skip">
+      <div class="inner"><a href="#main">Skip to Content</a> <a href="#">Change Text Size or Colors</a> </div>
+    </nav>
+<header>
+      <div class="inner">
+    <h1>W3C WAI<br>
+          Web Accessibility<br>
+          Initiative</h1>
+    <div>
+          <nav class="meta" aria-label="Meta">
+        <ul>
+              <li><a href="#">About WAI</a></li>
+              <li><a href="#">Get Involved</a></li>
+              <li>
+            <input type="search">
+            <button>🔍</button>
+          </li>
+            </ul>
+      </nav>
+          <nav class="main" aria-label="Main">
+        <ul>
+              <li><a href="#" aria-current="page">Understand</a></li>
+              <li><a href="#">Implement</li>
+              <li><a href="#">Evaluate</li>
+              <li><a href="#">Promote</li>
+            </ul>
+      </nav>
+        </div>
+  </div>
+    </header>
+<nav class="bread" aria-label="Breadcrumb">
+      <div class="inner"> <a href="#">Home</a><span> / </span><a href="#" aria-current="page">Primary Navigation Landing Page</a> </div>
+    </nav>
+<main>
+      <div class="intro">
+    <div class="inner"> 
+          <!-- <div class="demo_img"></div> -->
+          <h1>Primary Navigation Landing Page (agjJlLiIqbd69)</h1>
+          <p>The Web Accessibility Initiative (WAI) develops strategies, guidelines, and resources to help make the Web accessible to people with disabilities.</p>
+        </div>
+  </div>
+      <div class="body">
+    <div class="inner">
+          <div class="col1">
+        <h2>Section Header: Header 2</h2>
+        <p>The Web is fundamentally designed to work for all people, whatever their hardware, software, language, culture, location, or physical or mental ability. When the Web meets this goal, it is accessible to people with a diverse range of hearing, movement, sight, and cognitive ability.</p>
+        <p>Thus <strong>the impact of disability is radically changed on the Web because the Web removes barriers</strong> to communication and interaction that many people face in the physical world. However, when websites, web technologies, or web tools are badly designed, they can create barriers that exclude people from using the Web.</p>
+        <p>...</p>
+        <p><a href="https://www.w3.org/WAI/Resources/Overview">WAI develops...</a></p>
+        <ul>
+              <li>guidelines widely regarded as the international standard for Web accessibility</li>
+              <li>support materials to help understand and implement Web accessibility</li>
+              <li>resources, through international collaboration</li>
+            </ul>
+        <p><a href="https://www.w3.org/WAI/participation">WAI welcomes...</a></p>
+        <ul>
+              <li>participation from around the world</li>
+              <li>volunteers to review, implement, and promote guidelines</li>
+              <li>dedicated participants in working groups</li>
+            </ul>
+        <h2>Section Header: Header 2</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, sint dolores tempore quod libero, nemo consequatur neque. Ipsum hic voluptatem cumque, amet neque. Provident fugiat repellat illo culpa qui dolorem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, suscipit odio placeat, ut, eligendi molestias sequi optio non consequatur vel minima cumque praesentium esse voluptates quasi dolores odit quod vitae.</p>
+        <h3>Section Header: Header 3</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam qui eligendi molestias mollitia perspiciatis excepturi. Odit, minima commodi dicta velit exercitationem, impedit amet, similique illum voluptate at sit natus assumenda!</p>
+        <ul>
+              <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero quasi, dicta excepturi! Repellat, quos aliquam. Rerum eum aspernatur maiores sapiente autem reiciendis cum, sunt voluptatum aut asperiores corporis soluta libero. </li>
+              <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero quasi, dicta excepturi! Repellat, quos aliquam. Rerum eum aspernatur maiores sapiente autem reiciendis cum, sunt voluptatum aut asperiores corporis soluta libero. </li>
+              <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero quasi, dicta excepturi! Repellat, quos aliquam. Rerum eum aspernatur maiores sapiente autem reiciendis cum, sunt voluptatum aut asperiores corporis soluta libero. </li>
+            </ul>
+        <h4>Section Header: Header 4</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo temporibus dolorum maxime eos blanditiis, nihil hic fuga perspiciatis, incidunt praesentium. Alias ut sit vero, dolor illum perferendis magni quaerat, beatae.</p>
+        <h5>Section Header: Header 5</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint inventore natus vitae, reiciendis, omnis, eveniet alias asperiores vero, porro accusamus iure fugiat. Harum architecto sunt, recusandae similique cum veniam ducimus.</p>
+        <h6>Section Header: Header 6</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates quis, beatae odio iusto ipsa laboriosam dicta perferendis eos quisquam assumenda natus, autem similique atque, modi pariatur. Suscipit consequuntur similique distinctio!</p>
+      </div>
+          <div class="col2">
+        <section>
+              <h3>Terminology</h3>
+              <div class="section-body">
+            <ul>
+                  <li><a href="#">adaptive strategies</a></li>
+                  <li><a href="#">assistive technologies</a></li>
+                  <li><a href="#">user characteristics</a></li>
+                  <li><a href="#">web content</a></li>
+                </ul>
+          </div>
+            </section>
+        <section>
+              <h3>More information</h3>
+              <div class="section-body">
+            <ul>
+                  <li><a href="#">Involving Users<br>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere delectus autem velit distinctio.</a></li>
+                  <li><a href="#">Involving Users<br>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere delectus autem velit distinctio.</a></li>
+                  <li><a href="#">Involving Users<br>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere delectus autem velit distinctio.</a></li>
+                  <li><a href="#">Involving Users<br>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere delectus autem velit distinctio.</a></li>
+                </ul>
+          </div>
+            </section>
+        <section>
+              <h3>Help improve this page</h3>
+              <div class="section-body">
+            <p>Please share your ideas, suggestions, or comments via email to the publicly-archived list <a href="mailto:wai-eo-editors@w3.org">wai-eo-editors@w3.org</a> or via GitHub.</p>
+            <div class="buttons"> <a class="btn" title="Publicly archived list" href="mailto:wai-eo-editors@w3.org?subject=%5bEasy%20Checks%5d">E-mail</a> <a class="btn" href="https://github.com/w3c/EasyChecks/blob/gh-pages/index.html">Fork &amp; edit on GitHub</a> <a class="btn" href="https://github.com/w3c/EasyChecks/issues/new?title=[Easy%20Checks]&amp;body=This%20is%20a%20comment%20related%20to%20[Easy%20Checks%20-%20A%20First%20Review%20of%20Web%20Accessibility](https://www.w3.org/WAI/eval/preliminary)">New GitHub Issue</a> </div>
+          </div>
+            </section>
+      </div>
+        </div>
+  </div>
+      <footer>
+    <div class="inner">
+          <p>Status: Draft updated February 2017</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ipsam quos dolores quasi, maxime harum debitis, optio aperiam voluptatem voluptas asperiores nisi libero, voluptatibus ab error sunt quod assumenda, saepe.</p>
+        </div>
+  </footer>
+    </main>
+<footer aria-label="footerhead">
+      <div class="inner">
+    <div class="col">
+          <p class="footerhead" id="footerhead">Web Accessibility Initiative</p>
+          <p>Strategies, guidelines, resources to make the web accessible to people with disabilities.</p>
+        </div>
+    <div class="col">
+          <p style="margin-top:0">Give us feedback</p>
+          <p><a href="#">Publicly Archived List</a><br>
+        <a href="#">WAI Staff-only List</a></p>
+        </div>
+    <div class="col">
+          <nav><a href="#">Contact WAI</a><br>
+        <a href="#">Site Map</a><br>
+        <a href="#">Help with the WAI Website</a><br>
+      </nav>
+        </div>
+  </div>
+      <div class="inner">
+    <p>Copyright © 2017 W3C <sup>®</sup> (<a href="http://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>, <a href="http://www.ercim.eu/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>, <a href="http://www.keio.ac.jp/">Keio</a>, <a href="http://ev.buaa.edu.cn/">Beihang</a>) <a href="/Consortium/Legal/ipr-notice">Usage policies apply</a>.</p>
+  </div>
+    </footer>
+</body>
+</html>
