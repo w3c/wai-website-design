@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>WAI nav idea - 4 main categories</title>
+<!-- link rel=Stylesheet type="text/css" media=all href="../wai-main.css" -->
+<style>
+<!--
+body {
+	line-height: 135%;
+	margin-left: 33px;
+}
+h1, h2, h3 {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+p, ul, h3 {
+	padding-top: 0;
+	margin-top: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	margin-left: 77px;
+}
+h3 {
+	color: #303030;
+	font-size: 95%;
+}
+.note {
+	color: #505050;
+}
+-->
+</style>
+</head>
+<body>
+<h1>Nav idea</h1>
+<h2>Understand</h2>
+<ul>
+  <li><a href="https://www.w3.org/WAI/intro/accessibility.php">Introduction to Web Accessibility</a> <span class="note">(to be edited from Accessibility - W3C)</span></li>
+  <li><a href="https://www.w3.org/WAI/intro/people-use-web/">How People with Disabilities Use the Web</a> <em><span class="note">[@@ when redesigned, make Accessibility Principles an easy direct landing page]</span></em></li>
+  <li><a href="https://www.w3.org/WAI/intro/components.php">Essential Components of Web Accessibility &mdash; Introduction to the Guidelines </a><span class="note">&lt;-- adds &quot;&mdash; Introduction to the Guidelines&quot; to title</span></li>
+  <li>FAQ: <a href="https://www.w3.org/WAI/mobile/">Mobile Accessibility</a></li>
+  <li>FAQ: <a href="http://w3c.github.io/wai-inclusion/">Accessibility, Usability, and Inclusion</a></li>
+  <li>FAQ: <a href="https://www.w3.org/WAI/older-users/">Older Users: Meeting the Needs of Aging Web Users</a></li>
+  <li><a href="https://www.w3.org/WAI/techpapers">WAI Technical Papers</a></li>
+  <li>For Users: <a href="https://www.w3.org/WAI/users/browsing">Better Web Browsing: Tips for Customizing Your Computer</a></li>
+</ul>
+<h2>Implement</h2>
+<h3>Guidelines and Techniques</h3>
+<ul>
+  <li><a href="https://www.w3.org/WAI/intro/wcag.php">Web Content Accessibility Guidelines (WCAG) Overview</a></li>
+  <li><a href="https://www.w3.org/WAI/intro/atag.php">Authoring Tool Accessibility Guidelines (ATAG) Overview</a></li>
+  <li><a href="https://www.w3.org/WAI/intro/uaag.php">User Agent Accessibility Guidelines (UAAG) Overview</a></li>
+</ul>
+<h3>Specifications</h3>
+<ul>
+  <li><a href="https://www.w3.org/WAI/intro/aria.php">Accessible Rich Internet Applications (WAI-ARIA)  Overview</a></li>
+  <li><a href="https://www.w3.org/WAI/intro/earl.php">Evaluation and Report Language (EARL) Overview</a> <span class="note">[@@ move to evaluate?]</span></li>
+</ul>
+<h3>Tutorials, Tips, Examples</h3>
+<ul>
+  <li><a href="https://www.w3.org/WAI/gettingstarted/tips/designing"> Designing: Tips for user interface and visual design</a></li>
+  <li><a href="https://www.w3.org/WAI/gettingstarted/tips/writing">Writing: Tips for writing and presenting content</a></li>
+  <li><a href="https://www.w3.org/WAI/gettingstarted/tips/developing">Developing: Tips for markup and coding</a></li>
+  <li><a href="http://www.w3.org/WAI/tutorials/">Tutorials</a></li>
+  <li><a href="http://www.w3.org/WAI/demos/bad/">Before and After Demonstration (BAD) Example Website</a><span class="note"> &lt;--@@adds &quot;Example Website&quot;]</span>
+  <li><a href="https://www.w3.org/blog/wai-components-gallery/">UI Components List</a>
+</ul>
+<h3>How to reference the guidelines and How they are developed</h3>
+<ul>
+  <li><a href="https://www.w3.org/WAI/intro/linking">Referencing and Linking to WAI Guidelines and Technical Documents</a></li>
+  <li><a href="https://www.w3.org/WAI/intro/w3c-process.php">How WAI Develops Accessibility Guidelines through the W3C Process</a></li>
+</ul>
+<h2>Evaluate</h2>
+<h3>[Evaluation Steps | Evaluate Now | Evaluation Approaches | ?]</h3>
+<ul>
+  <li><a href="http://www.w3.org/WAI/eval/preliminary">Easy Checks for Some Common Accessibility Problems|Barriers|Errors</a> <span class="note">[&lt;!-- possible title change title from: Easy Checks - A First REview of Web Accessibility]</span></li>
+  <li><a href="http://www.w3.org/WAI/eval/conformance">WCAG-EM Overview: Website Accessibility Conformance Evaluation Methodology</a></li>
+  <li><a href="http://www.w3.org/WAI/eval/report-tool/">WCAG-EM Report Tool: Website Accessibility Evaluation Report Generator</a></li>
+  <li><a href="http://www.w3.org/WAI/eval/template">Template for Accessibility Evaluation Reports</a></li>
+</ul>
+<h3>Evaluation Tools</h3>
+<ul>
+  <li><a href="http://www.w3.org/WAI/ER/tools">List of  Web Accessibility Evaluation Tools</a></li>
+  <li><a href="http://www.w3.org/WAI/eval/selectingtools">Selecting Web Accessibility Evaluation Tools</a></li>
+</ul>
+<h3>Evaluation Situations</h3>
+<ul>
+  <li><a href="http://www.w3.org/WAI/eval/users">Involving Users in Web Accessibility Evaluation</a></li>
+  <li><a href="http://www.w3.org/WAI/eval/reviewteams">Using Combined Expertise to Evaluate Web Accessibility</a>
+  <li><a href="http://www.w3.org/WAI/eval/considerations">Evaluation Approaches for Specific Contexts</a></li>
+</ul>
+<h2>Promote</h2>
+<h3>Introducing Accessibility</h3>
+<ul>
+  <li><a href="https://www.w3.org/WAI/perspectives/">Web Accessibility Perspectives Videos: Explore the Impact and Benefits for Everyone</a> <span class="note">&lt;--@@adds &quot;Videos&quot;]</span></li>
+  <li><a href="https://www.w3.org/WAI/bcase/Overview">Developing a Web Accessibility Business Case for Your Organization</a></li>
+  <li><a href="https://www.w3.org/WAI/users/inaccessible">Contacting Organizations about Inaccessible Websites</a></li>
+</ul>
+<h3>Presentations and Training</h3>
+<ul>
+  <li><a href="https://www.w3.org/WAI/training/Overview">Developing Web Accessibility Presentations and Training</a></li>
+  <li><a href="http://www.w3.org/WAI/training/accessible.php">How to Make Your Presentations Accessible to All</a></li>
+  <li><a href="https://www.w3.org/WAI/presentations">Example Web Accessibility Presentations</a></li>
+</ul>
+<h3>Managing Accessibility <span class="note"><em>[@@ kinda goes with Implement, but maybe better here]</em></span></h3>
+<ul>
+  <li><a href="impl/improving">Web Accessibility First Aid: Approaches for Interim Repairs</a></li>
+  <li><a href="impl/Overview.html">Planning and Managing Web Accessibility</a></li>
+  <li><a href="http://www.w3.org/WAI/users/involving">Involving Users in Web Projects for Better, Easier Accessibility</a></li>
+  <li><a href="http://www.w3.org/WAI/impl/software">Selecting and Using Authoring Tools for Web Accessibility</a> <span class="note">[@@ maybe not have in main nav – archive until it gets updated?]</span></li>
+</ul>
+<h3>Policies</h3>
+<ul>
+  <li> International <a href="https://www.w3.org/WAI/Policy/">Policies Relating to Web Accessibility</a></li>
+  <li><a href="https://www.w3.org/WAI/impl/pol">Developing Organizational Policies on Web Accessibility</a></li>
+  <li><a href="https://www.w3.org/WAI/Policy/harmon">Why Standards Harmonization is Essential to Web Accessibility</a></li>
+</ul>
+<h2>Other Nav</h2>
+<h3>About WAI</h3>
+<p>(Would include links to Working Groups and Task Forces and other accessibility work in W3C (including outside of old &quot;WAI&quot; umbrella).)</p>
+<h3>Get Involved</h3>
+<p>(Munge and improvement on <a href="https://www.w3.org/WAI/about-links"><i>Getting Involved with WAI</i></a> and <a href="http://www.w3.org/WAI/participation"><i>Participating in WAI</i></a>. Would include more prominence on <a href="https://www.w3.org/WAI/translation">Translating</a>.)</p>
+<h3>Footer</h3>
+<ul>
+  <li>Getting WAI Announcements</li>
+  <li>Permission to Use WAI Material</li>
+  <li>Contacting WAI</li>
+  <li>Site Map</li>
+  <li>Archived Pages</li>
+</ul>
+</body>
+</html>
